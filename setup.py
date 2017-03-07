@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-  name = 'expertsystempython',
-  packages = ['expertsystempython'], # this must be the same as the name above
+  name = 'es',
+  packages = ['es'], # this must be the same as the name above
   version = '0.1',
   description = 'expertsystempython',
   author = 'Vitor Horta',
