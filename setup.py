@@ -1,7 +1,10 @@
-from distutils.core import setup
+from setuptools import setup
 setup(
   name = 'es',
   packages = ['es'], # this must be the same as the name above
+  entry_points = {
+    "console_scripts": ['es = es.program:main']
+  },
   version = '0.5',
   description = 'expertsystempython',
   author = 'Vitor Horta',
